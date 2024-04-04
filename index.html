@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Erik Locatelli - Portifólio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/00f812b05f.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <h1 class="titulo">Portifólio</h1>
+        <h1 class="titulo" id="inicio">Portifólio</h1>
         <nav class="menu">
-            <a href="">Home</a>
+            <a href="#inicio">Home</a>
             <a href="">Contato</a>
-            <a href="">Habilidades</a>
+            <a href="#habilidades">Habilidades</a>
             <a href="" class="botao">Projetos</a>
         </nav>
     </header>
@@ -30,12 +31,47 @@
         </div>
     </main>
     <main class="art2">
-            <h1>Sobre Mim</h1>
+            <h1 class="destaque">Sobre Mim</h1>
             <p>
                 Graduando em engenharia de software e formado como técnico em química pelo Instituto Federal de Santa Catarina. Gigante interesse por 
                 desenvolvimento e tencologia front-end, visando aprender e compreender melhor a área. Breve conhecimento em HTML5, CSS3, JavaScript e NodeJS, entretanto 
                 prestes a iniciar os estudos de React e demais tecnologias. 
             </p>    
+    </main>
+    <main class="art3">
+        <h1 class="destaque" id="habilidades">Habilidades</h1>
+        <div class="hab">
+            <article>
+                <div class="icon">
+                    <p>HTML5</p>
+                    <i class="fab fa-html5"></i>
+                </div>
+            </article>
+            <article>
+                <div class="icon">
+                    <p>CSS3</p>
+                    <i class="fab fa-css3-alt"></i>
+                </div>
+            </article>
+            <article>
+                <div class="icon">
+                    <p>JavaScript</p>
+                    <i class="fab fa-js-square"></i>
+                </div>
+            </article>
+            <article>
+                <div class="icon">
+                    <p>GitHUB</p>
+                    <i class="fab fa-github"></i>
+                </div>
+           </article>
+           <article>
+                <div class="icon">
+                    <p>NodeJS</p>
+                    <i class="fab fa-node-js"></i>
+                </div>
+            </article>
+        </div>
     </main>
 </body>
 </html>
