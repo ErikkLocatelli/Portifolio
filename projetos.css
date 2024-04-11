@@ -58,7 +58,6 @@ header {
     height: 8vh;
     width: 100%;  
     background-color: var(--cor0);
-    position: fixed;
 }
 
 .titulo {
@@ -91,7 +90,7 @@ header {
 main {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 92vh;
     justify-content: center;
     align-items: center;
 }
